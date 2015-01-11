@@ -1,0 +1,127 @@
+body { 
+    margin: 0px 0px 0px 0px ;
+    padding: 0px 0px 0px 0px ;
+
+    font-family:Verdana; font-size:14px; margin:0;}
+
+#container {margin:0 auto; width:900px;
+width: 100%;
+}
+#header { height:100px; background:#6cf; 
+margin: inherit;
+width: 100%;
+}
+#menu { height:30px; background:#09c; 
+}
+#mainContent { height:745px; 
+padding: inherit;
+    padding: 0px 0px 0px 0px ;
+    display: inline-block;
+overflow: hidden;
+}
+#content { float:right; width:1173px; height:745px; background:#cff;
+margin: inherit;
+}
+#footer { height:60px; background:#3ec3a7;
+
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}    
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+
+/*#wrapper {
+    /*padding-left: 0;*/
+/*    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+*/
+/*#wrapper.toggled {*/
+    /*padding-left: 250px;*/
+/*}*/
+
+#sidebar-wrapper {
+    margin-top: 31px;
+    padding: inherit;
+    float:left;
+    width:10%;
+    height:445px;
+    background:yellow;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+/*#wrapper.toggled #sidebar-wrapper {*/
+    /*width: 250px;*/
+/*}*/
+
+/*#page-content-wrapper {
+    width: 100%;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}*/
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    /*position: absolute;*/
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+/*    border-left: 10px solid #249db8;
+    border-right:10px solid #249db8;
+*/}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: MediumSlateBlue;
+    /*background: rgba(255,255,255,0.2);*/
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+/* -------------------天------------------- */
+/*.TOP-bh{ background-color:#117e96; height:35px; box-shadow:0 0 5px #666; position:static;}
+/*.TOP-bh p{ display:block; width:1000px; height:35px; margin:0 auto;}*/
+/*.TOP-bh span{ display:block; float:right;}*/
+/*.TOP-bh span a{ display:inline-block; line-height:35px; color:#FFFFFF; padding:0 15px; font-size:13px; border-right:1px solid #249db8;}*/
+/*.TOP-bh span a:hover{ background-color:pink; text-decoration:none;}*/
+/*.TOP-bh .trangle{ display:none;}*/
+/* -------------------內容------------------- */

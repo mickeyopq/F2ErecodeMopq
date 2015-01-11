@@ -1,0 +1,134 @@
+<link rel="stylesheet" href="../css/theme.blue.css">
+<link rel="stylesheet" href="../css/theme.ice.css">
+<link rel="stylesheet" href="../css/theme.grey.css">
+<link rel="stylesheet" href="../css/theme.jui.css">
+
+
+<link rel="stylesheet" href="../css/theme.green.css">
+<script src="js/jquery-latest.min.js"></script>
+<script src="../js/jquery.tablesorter.js"></script>
+
+<script id="js">$(function() {
+
+// call the tablesorter plugin
+$("table").tablesorter({
+theme : 'green',
+sortInitialOrder: "desc"
+});
+
+}); </script>
+
+
+
+
+
+<table class="tablesorter">
+    <thead>
+        <tr>
+            <th>11234</th>
+            <th>222222</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>aaaaaaaa</td>
+            <td>bbbbbbb</td>
+        </tr>
+        <tr>
+            <td>ccccccc</td>
+            <td>dddddddd</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+===========================================================   <br>
+<table id="result_list" class="table table-striped table-bordered table-hover table-condensed">
+            <thead>
+            <tr>
+                
+                    <th scope="col"  class="action-checkbox-column">
+                        
+                        <div class="text"><span><input type="checkbox" id="action-toggle" /></span>
+                        </div>
+                    </th>
+                    <th scope="col"  class="username-column sortable column-username sorted descending">
+                        
+                            
+                                <div class="relative-wrapper">
+                                    <div class="sortoptions">
+                                        
+                                            <span class="sortpriority" title="優先排序：2">2</span>
+                                        <a href="?o=-2.1" class="toggle descending" title="切換排序"></a>
+                                        <a class="sortremove" href="?o=-2"
+                                           title="從排序中移除"></a>
+                                    </div>
+                                </div>
+                            
+                        
+                        <div class="text">
+                            <a href="?o=1.-2">使用者名稱</a>
+                        </div>
+                    </th>
+                    <th scope="col"  class="email-column sortable column-email sorted descending">
+                        
+                            
+                                <div class="relative-wrapper">
+                                    <div class="sortoptions">
+                                        
+                                            <span class="sortpriority" title="優先排序：1">1</span>
+                                        <a href="?o=2.-1" class="toggle descending" title="切換排序"></a>
+                                        <a class="sortremove" href="?o=-1"
+                                           title="從排序中移除"></a>
+                                    </div>
+                                </div>
+                            
+                        
+                        <div class="text">
+                            <a href="?o=2.-1">電子信箱</a>
+                        </div>
+                    </th>
+                    <th scope="col"  class="first_name-column sortable column-first_name">
+                        
+                            
+                        
+                        <div class="text">
+                            <a href="?o=3.-2.-1">名字</a>
+                        </div>
+                    </th>
+                    <th scope="col"  class="last_name-column sortable column-last_name">
+                        
+                            
+                        
+                        <div class="text">
+                            <a href="?o=4.-2.-1">姓氏</a>
+                        </div>
+                    </th>
+                    <th scope="col"  class="is_staff-column sortable column-is_staff">
+                        
+                            
+                        
+                        <div class="text">
+                            <a href="?o=5.-2.-1">工作人員狀態</a>
+                        </div>
+                    </th>
+            </tr>
+            </thead>
+            <tbody>
+            
+                
+                <tr class="row1">
+                    <td class="action-checkbox"><input class="action-select" name="_selected_action" type="checkbox" value="1" /></td><th class="field-username"><a href="/admin/auth/user/1/?_changelist_filters=o%3D-2.-1">xbug</a></th><td class="field-email">kk@kk.kk</td><td class="field-first_name">&nbsp;</td><td class="field-last_name">&nbsp;</td><td class="field-is_staff"><img src="/static/admin/img/icon-yes.gif" alt="True" /></td></tr>
+            
+                
+                <tr class="row2">
+                    <td class="action-checkbox"><input class="action-select" name="_selected_action" type="checkbox" value="3" /></td><th class="field-username"><a href="/admin/auth/user/3/?_changelist_filters=o%3D-2.-1">ww321321</a></th><td class="field-email">&nbsp;</td><td class="field-first_name">&nbsp;</td><td class="field-last_name">&nbsp;</td><td class="field-is_staff"><img src="/static/admin/img/icon-no.gif" alt="False" /></td></tr>
+            
+                
+                <tr class="row1">
+                    <td class="action-checkbox"><input class="action-select" name="_selected_action" type="checkbox" value="2" /></td><th class="field-username"><a href="/admin/auth/user/2/?_changelist_filters=o%3D-2.-1">q321321</a></th><td class="field-email">&nbsp;</td><td class="field-first_name">&nbsp;</td><td class="field-last_name">&nbsp;</td><td class="field-is_staff"><img src="/static/admin/img/icon-no.gif" alt="False" /></td></tr>
+            
+            </tbody>
+        </table>

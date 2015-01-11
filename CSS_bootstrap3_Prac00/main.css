@@ -1,0 +1,10 @@
+#mainCol a, #subCol a, #feature a {
+color: #980905;
+}
+#mainCol a, #subCol a, #feature a {
+color: #980905;
+}
+a, a:link, a:visited {
+color: #ee3f3f;
+text-decoration: underline;
+}

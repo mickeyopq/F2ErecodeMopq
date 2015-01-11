@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="./css/bootstrap.css">
+
+<script>
+function ww (aa) {
+    var i = 0;
+    var strtable='';
+    while(i<aa){
+        i+=1;
+        strtable+='<tr> <td> 1 </td> <td> TB - Monthly </td> <td> 01/04/2012 </td> <td> Default </td> </tr>';
+    }
+    strtable='<table class="table"> <thead> <tr> <th> # </th> <th> Product </th> <th> Payment Taken </th> <th> Status </th> </tr> </thead> <tbody> '+strtable+' </tbody> </table>';
+    return strtable;
+}
+    function tt () {
+        sel=document.getElementById('myslt');
+        var ov=sel.options[sel.selectedIndex].value;
+        spa=document.getElementById('ss');
+        spa.innerHTML=ww(ov);
+        
+        // if (ov=='1') {
+        //     spa.innerHTML='HELLO';
+        //     // spa.innerHTML='HELLO';
+        //     // alert('is 1!!');
+        // } else if (ov=='2') {
+        //     spa.innerHTML='FQ';
+        //     // alert('is 222!!');
+        // }else if (ov=='3') {
+        //     // alert('is 333!!');
+        // };
+
+    }
+</script>
+<button onclick="212tt()" class="btn btn-warning">btnbtn</button>
+<select name="" id="myslt" onchange="tt()">
+    <option value="1">11</option>
+    <option value="2">22</option>
+    <option value="3">33</option>
+</select>
+
+<hr><hr>
+<div id="ss">div</div>
+<!-- <span id="ss">span here</span> -->

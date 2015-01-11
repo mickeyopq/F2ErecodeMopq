@@ -1,0 +1,66 @@
+html {color: #000; background: #FFF}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {margin: 0; padding: 0}
+table {border-collapse: collapse; border-spacing :0}
+fieldset, img {border:0}
+h1, h2, h3, h4, h5, h6 {font-size:100%; font-weight:normal}
+body.splash {font-family: Verdana, "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif; font-size: 12px; margin: 0; height: 100%; background-color: yellow}
+body.splash #page {background-image: url("/images/splash/background-color.gif"); height: 100%}
+body.splash #viewport {background-image: url("/images/splash/vertical-gradient.png"); background-color: yellow; background-repeat: repeat-x; position: relative}
+body.splash #screenshots {background-image: url("/images/splash/yellow-gradient-3.gif"); background-repeat: repeat-x; height: 400px; background-color: #b61846; margin-top: -10px}
+body.splash #vera {position: absolute; right: 0px; top: 80px}
+body.splash #background {background-image: url("/images/splash/rays2.png"); background-repeat: no-repeat}
+body.splash #animals_container {position: absolute; top: 100px; background-image: url("/images/splash/yarn-no-gradient-2.gif"); background-position: 0px 0px; background-repeat: no-repeat; height: 520px; width: 960px}
+body.splash #splash {padding-top: 50px; padding-bottom: 50px; background: transparent url("/images/splash/yarn-tiles-3.gif") repeat-x 0px 542px; height: 550px}
+body.splash #splash #logo {position: absolute; top: 25px; right: 62px}
+body.splash #splash #logged_in {height: 200px; width: 280px; top: 160px; right: 63px; position: absolute; text-align: center}
+body.splash #splash #logged_in .message {font-size: 1.2em}
+body.splash #splash #logged_in .buttons {margin: 10px}
+body.splash #splash #logged_in small {font-size: 0.9em}
+body.splash #splash #logged_in small a {color: black}
+body.splash #splash #login {background: transparent url("/images/splash/passfields-nolabels.png") no-repeat 0px 20px; height: 400px; width: 350px; top: 140px; right: 0px; position: absolute}
+body.splash #splash #login #iesux {height: 200px; width: 350px}
+body.splash #splash #login #login_messages {height: 20px; padding-left: 10px}
+body.splash #splash #login #login_messages img {vertical-align: bottom}
+body.splash #splash #login form {margin: 0; padding-top: 0px; width: 280px}
+body.splash #splash #login button {width: 60px; text-align: center}
+body.splash #splash #login .clicker {float: right; margin-right: 20px}
+body.splash #splash #login span.forgetful, body.splash #splash #login span.remember {margin-top: 5px; font-size: 0.95em; line-height: 20px}
+body.splash #splash #login span.forgetful {float: left; width: 60px; padding-right: 10px}
+body.splash #splash #login span.forgetful a, body.splash #splash #login span.forgetful a:visited, body.splash #splash #login span.forgetful a:hover {color: #666666}
+body.splash #splash #login span.remember {color: #666666; float: right; width: 110px}
+body.splash #splash #login span.remember input {float: none; margin-right: 0; width: auto; height: auto}
+body.splash #splash #login fieldset {display: block; height: 20px; margin: 0; padding: 12px; clear: both; border: none; width: 280px}
+body.splash #splash #login fieldset.buttons {padding-top: 0px; clear: both; margin-left: 5px; margin-right: 10px}
+body.splash #splash #login fieldset.forgetful {font-size: 0.9em; color: #666666; padding-left: 15px}
+body.splash #splash #reminder_menu_contents {padding: 15px; padding-top: 30px}
+body.splash #splash #reminder_menu_contents #email_field {float: left; width: 170px; padding-top: 3px}
+body.splash #splash #reminder_menu_contents #button_field {width: 80px; float: left}
+body.splash #splash #reminder_menu_contents .clicker {float: none}
+body.splash #splash #reminder_menu_contents button {width: 70px}
+body.splash #splash #reminder_menu_contents input {border: 1px solid #cccccc}
+body.splash #splash #reminder_menu_contents #reminder_notice {height: 35px}
+body.splash #splash #reminder_menu_contents #remind_indicator {position: absolute; right: 60px; top: 207px}
+body.splash #login input {width: 165px; font-size: 16px; height: 20px; float: left; border: none; border-color: yellow; padding: 1px; outline: none}
+body.splash #login label {float: left; width: 85px; line-height: 18px; font-size: 15px; color: #999999; padding-left: 10px; border-top: 2px solid transparent}
+body.splash #join_now {float: left; margin-left: 10px; overflow: hidden; height: 39px; width: 96px}
+body.splash #join_now a.joinbutton {background: transparent url(/images/join-now-2.png) no-repeat; height: 39px; width: 96px; display: block}
+body.splash #join_now a.joinbutton:hover {background: transparent url(/images/join-now-lit-2.png) no-repeat}
+body.splash #signup_info {padding-right: 50px; text-align: center; font-size: 1.2em; padding-top: 20px}
+body.splash #signup_info a, body.splash #signup_info a:visited {color: #a90945}
+body.splash #onlinebar span {font-weight: bold}
+body.splash #footer {position: relative; background: transparent url("/images/splash/yarn-footer-3.gif") no-repeat 20px 0px; height: 100px; padding-top: 100px; padding-left: 20px; width: 870px; font-size: 1.1em}
+body.splash #footer a, body.splash #footer a:visited {color: #ebfae6; text-decoration: none}
+body.splash #footer a:hover {color: yellow; text-decoration: underline}
+body.splash #preload_default_images {width: 0px; height: 0px; display: inline; background-image: url(/images/join-now-lit-2.png)}
+#controls .clicker span {text-decoration: none}
+span.medium_clicker button {widht: 100px}
+a.clicker, span.clicker {display: -moz-inline-box; display: inline-block; border: none; background: url('/images/btn0.png') no-repeat; height: 30px; text-decoration: none !important; color: #2e523b; font-style: normal; margin: 0 6px 0px 0; padding: 0 10px 0 0; vertical-align: middle; zoom: 1; _position: relative; _width: 10px; _overflow-y: hidden}
+a.clicker span, span.clicker button, span.clicker input {font-weight: normal; yellow-space: nowrap; cursor: pointer; display: -moz-inline-box; display: inline-block; font: 12px/1 Arial !important; background: url('/images/btn0.png') 100% 0 no-repeat; height: 30px; padding: 8px 10px 2px 0; margin: 0 -16px 0 10px; border: none; vertical-align: text-top; zoom: 1; _position: relative; _padding-right: 12px; _margin-right: -10px; _display: block; _top: 0; _right: -5px}
+a.clicker span {}
+span.clicker button, span.clicker input{ padding-top: 0px; line-height: 2.5}
+a.clicker:hover, span.clicker:hover, span.button-behavior-hover {cursor: pointer; background-position: 0 -60px; color: #222; text-decoration: none}
+a.clicker:hover span, span.clicker:hover button, span.button-behavior-hover button, span.button-behavior-hover input {cursor: pointer; background-position:100% -60px}
+a.clicker:active, a.clicker:focus span {color: black}
+.clicker_icon {}
+.clicker_icon .clicker span {padding-left: 20px}
+.clicker_icon img {position: absolute; z-index: 10; padding-left: 10px; padding-top: 6px}

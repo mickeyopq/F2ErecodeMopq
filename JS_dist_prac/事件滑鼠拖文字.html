@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML DOM DEMO</title>
+<script src="event026.js" type="text/javascript">
+    function run1() {
+    var s = document.getElementById("show1");
+    s.innerHTML = "Dragged!";
+}
+ 
+function run2() {
+    var s = document.getElementById("show2");
+    s.innerHTML = "Dropped!";
+}
+</script>
+</head>
+<body>
+<textarea ondrop="run2();"></textarea>
+<div ondrag="run1();">There is no spoon.</div>
+<div>Result1: <span id="show1"></span></div>
+<div>Result2: <span id="show2"></span></div>
+</body>
+</html>

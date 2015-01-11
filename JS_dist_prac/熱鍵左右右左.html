@@ -1,0 +1,44 @@
+<script language="javascript">
+//偵測瀏覽器版本
+var browser=navigator.appName;
+if(browser=="Netscape"){    //如果瀏覽器為Netscape或者Firefox
+    //開始監聽鍵盤事件
+    document.captureEvents(Event.KEYDOWN)
+    document.onkeydown=function(event){
+        if(event.which==37){
+            //key code 37為→
+            // alert("你按下了下一頁");
+            document.getElementById('upd').innerHTML="左";
+        }
+        else if(event.which==39){
+            //key code 39為←
+            // alert("你按下了上一頁");
+            document.getElementById('upd').innerHTML="右右→";
+            }
+        else if(event.which==38){
+            document.getElementById('upd').innerHTML="upup上上";
+        }
+        else if(event.which==40){
+            document.getElementById('upd').innerHTML="down";
+        }
+
+        
+    }
+}
+else{    //假設瀏覽器不為Nescape則猜測為ie
+    //開始監聽鍵盤事件
+    document.onkeydown = function(){
+        if(event.whitch==37){
+            //key code 37為→
+            alert("你按下了下一頁");
+        }
+        else if(event.whitch==39){
+            //key code 39為←
+            alert("你按下了上一頁");
+        }
+    }
+}
+</script>
+
+
+<span id="upd">span</span>

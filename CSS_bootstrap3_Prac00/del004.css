@@ -1,0 +1,58 @@
+.fq{
+  background-color: pink;
+  -webkit-transition: ALL,5s;
+}
+.fq :hover{
+  background-color: green;
+}
+
+
+.btn-danger{
+  background-color: yellow;
+}
+.btn-danger:hover{
+  background-color: white;
+}
+#main-nav ul li a {
+    color: white;
+    font: normal 16px "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    padding: 49px 30px 50px 9px;
+    display: block;
+    text-decoration: none;
+    outline: none;
+    background: #686765; 
+    text-transform:lowercase;
+    letter-spacing:-1px;
+    border-left: 1px solid #bfbfbf;
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+    width: 50px;
+}
+
+
+transition
+
+#main-nav ul li.page-item-16 a {
+    border-right: 1px solid #bfbfbf;
+}
+
+#main-nav ul li.page-item-14:hover a { /*About Hover*/
+    background:  #8cbc46;
+}
+
+#main-nav ul li.page-item-14 ul.children li a {
+    background: #a9d963;
+}
+
+#main-nav ul li.page-item-14 ul.children li a:hover {
+    background: #8cbc46;
+}
+
+#main-nav ul li.page-item-11:hover a { /*Results Hover*/
+    background: #2ca7e1;
+}
+
+#main-nav ul li.page-item-11 ul.children li a {
+    background: #55c3ff;
+}

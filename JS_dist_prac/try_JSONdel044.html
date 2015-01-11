@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<html>
+<body>
+<h2>Create Object from JSON String</h2>
+<p>
+First Name: <span id="fname"></span><br> 
+Last Name: <span id="lname"></span><br> 
+</p> 
+<script>
+// var txt = '{"employees":[' +
+// '{"firstName":"John","lastName":"Doe" },' +
+// '{"firstName":"Anna","lastName":"Smith" },' +
+// '{"firstName":"Peter","lastName":"Jones" }]}';
+// var atxt ='{"ee":[{"a":"f"},{"c":"d"}]}'
+var btxt ='{employees:[{"firstName":"John","lastName":"Doe"}]}'
+// alert(txt)
+alert(btxt+"之前");
+var obj = eval ("(" + btxt + ")");
+alert(btxt+"eval之後");
+
+document.getElementById("fname").innerHTML=obj.employees[0].firstName 
+document.getElementById("lname").innerHTML=obj.employees[0].lastName 
+// document.getElementById("fname").innerHTML=obj.employees[1].firstName 
+// document.getElementById("lname").innerHTML=obj.employees[1].lastName 
+</script>
+</body>
+</html> 
+
+
+
+
+{"aa":"bb000"}

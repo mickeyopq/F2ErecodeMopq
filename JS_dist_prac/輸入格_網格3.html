@@ -1,0 +1,35 @@
+
+  <link rel="stylesheet" href="./css/bootstrap.css">
+<link href="customer_mickeyopq.css" rel="stylesheet" type="text/css" />
+  <style>
+.rContent{
+  height: 140px;
+  background-color: pink;
+  width: 90%;
+  margin: inherit;
+  padding: 5px 5px 5px 22px;
+font-size: 36;
+color: #4298ca;
+}
+</style>
+  <div class="rContent"  id="txtCount">6546jklklnk
+  </div>
+<form action="">
+  <input type="textarea" id="txtTest" >
+<button onclick="changeText(txtTest);" type="reset">button</button>
+</form>
+</body>
+</html>
+
+<script type="text/javascript">
+var iCount = 0;
+function changeText(objElement) {
+    var oTextCount = document.getElementById("txtCount");
+    // var oCount = document.getElementById("hdnCount");
+    iCount = objElement.value;
+    oTextCount.innerHTML = "送出了：" + iCount;
+    // oCount.value = parseInt(iCount);
+    form.txtTest.focus(); //鎖定該欄位。(或說把焦點移到上面。)
+
+}
+</script>

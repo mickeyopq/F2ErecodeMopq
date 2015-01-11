@@ -1,0 +1,48 @@
+
+<html lang="en">
+</html>
+
+<HTML>
+<head>
+    <meta charset="UTF-8">
+  <title>Document</title>
+  <script type="text/javascript">
+      function TestSound(){
+        document.all.Sound.src = "29.wav";
+      }
+    </script>
+</head>
+<BODY>
+  <bgsound id="Sound" loop="1">
+    <center><input type="button" id="TestSound" value="點我測試" onclick="TestSound()"></center>
+<!-- // <script type="text/javascript"> -->
+<!-- // <bgsound id="Sound"> -->
+
+<!-- // document.all.sound.src = "2.wav"; -->
+<!--
+  //music陣列用來存放各種音效的路徑
+  // var music=new Array("2.wav","3.wav");
+
+  // function playSound(i){
+  //   //指定bgSound其src = 某音效位置
+  //   document.getElementById("sound").src = music[i];
+  // }
+//-->
+<!-- <input type="button" id="TestSound" value="點我測試" onclick="TestSound()">
+</script> -->
+
+<!-- 
+<SCRIPT Language="JavaScript">
+midi = new Array(2);
+midi[0] = "2.wav";
+midi[1] = "3.wav";
+
+index = Math.floor(Math.random() * midi.length);
+document.write("<embed src=" + midi[index] + " autostart=true hidden=true loop=true name=midis volume=100%>");
+</SCRIPT>
+
+<b>000:</b> 
+<a href="javascript:document.midis.play()" target=_self>PLAY</a>
+<a href="javascript:document.midis.stop()" target=_self>STOP</a>
+<a href="javascript:location.reload()" target=_self>RELOAD</a>  -->
+</body></html>

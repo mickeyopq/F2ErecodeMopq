@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>登入頁面</title>
+  <link data-turbolinks-track="true" href="/locust/assets/application-d774de38736921f30f5e145fb440c3e6.css" media="all" rel="stylesheet" />
+  <script data-turbolinks-track="true" src="/locust/assets/application-4d4b8341524ac40d78e2b470be371af0.js"></script>
+
+  <style type="text/css">
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #f5f5f5;
+      }
+
+      .form-signin {
+        max-width: 300px;
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+      .form-signin .form-signin-heading,
+      .form-signin .checkbox {
+        margin-bottom: 10px;
+      }
+      .form-signin input[type="text"],
+      .form-signin input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+      }
+
+    </style>
+
+    
+<style type="text/css">
+p {
+color: #f00;
+}
+</style>
+<style>
+.errorlist li{
+ color:  #f00;
+}
+</style>
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="mrzyKcA0XrjSwxODHEfiIJ+rtFkTiMDR5V+hhyj5FyQ=" name="csrf-token" />
+</head>
+<body>
+
+<div class="container">
+      <form accept-charset="UTF-8" action="/locust/sign_in" class="form-signin" method="post" role="form"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="mrzyKcA0XrjSwxODHEfiIJ+rtFkTiMDR5V+hhyj5FyQ=" /></div>
+        <h2 class="form-signin-heading">登入系統</h2>
+    <h4>使用者名稱</h4>
+    <input class="form-control" id="username" name="username" placeholder="使用者名稱" type="text" />
+    <h4>密碼</h4>
+    <input class="form-control" id="password" name="password" placeholder="密碼" type="password" value="" />
+       <table class="table table-condensed">
+<td><div id="captcha"><img src="/locust/captcha"/></div></td>
+<td><input type="text" name="code" class="form-control" placeholder="驗證碼"/></td>
+<tr/>
+<td>
+  <a href='javascript:void(0);' id="refresh_captcha">更新驗證碼</a>
+
+</td>
+</table>
+<script type="text/javascript">
+
+  $(function(){
+    $('#refresh_captcha').click(function(event) {
+      $.get("/locust/captcha",function(data){
+        $("#captcha").html('<img src="/locust/captcha"/>');
+      });
+    });
+  });
+
+</script>
+
+
+
+        <div class="checkbox">
+          <label class="checkbox">
+        <input type="checkbox" value="1" name="remember_me">記住我
+        <label class="pull-right">
+            <a href="/locust/forget_pwd">忘記密碼?</a>
+        </label>
+    </label>
+        </div>
+    <div class="row-fluid">
+    <div class="span6">
+      <input type="submit" value="登入" class="btn btn-large btn-success btn-block">
+      <a class="btn btn-large btn-default btn-block" href="/locust/">取消</a>
+    </div>
+    </div>
+</form></div> <!-- /container -->
+
+
+
+</body>
+</html>
+
+
+<!-- 純js的驗証碼 -->
+<img src="./img/images.jpg" id="Image1" alt="">
+
+<script>function changeImg(){
+document.getElementById("Image1").src='http://192.168.0.111/locust/public/captcha';
+}
+</script>
+
+
+<a href="javascript:changeImg();"><img src="{{asset('img/3RO_ARROR.png')}} " style="width:44px;height:30px;" /> </a>
+fq
